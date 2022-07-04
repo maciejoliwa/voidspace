@@ -7,12 +7,12 @@
 char *planets_name[] = {
     "Lynx", "Sirius", "Larry", "Filip", "Phil",
     "Haik", "Owo", "Uwu", "Mibi", "Ara", "Ara Ara",
-    "Kawai", "Fis"
+    "Kawai", "Fis", "Bulgy"
 };
 
 char *planets_suffix[] = {
     "I", "II", "III", "IV", "V", "VI", "VII", "VIII",
-    "IX", "X", "Magnifico", "Magnifica", "High", "Ex",
+    "IX", "X", "Magnifico", "Wulgy", "Magnifica", "High", "Ex",
     "P", "V", "Weed", "THC"
 };
 
