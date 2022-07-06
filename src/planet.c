@@ -31,4 +31,25 @@ char *generate_planet_name() {
     strcat(buffer, " ");
     strcat(buffer, planets_suffix[suffix_index]);
     return buffer;
+<<<<<<< HEAD
 }
+=======
+}
+
+climate_t decide_planet_climate(int distance_from_star) {
+    if (distance_from_star > FAR_DISTANCE) {
+        return FREEZING;
+    }
+    else if (distance_from_star < FAR_DISTANCE && distance_from_star > HABITABLE_DISTANCE) {
+        return COLD;
+    }
+    else if (distance_from_star <= HABITABLE_DISTANCE && distance_from_star > SMALL_DISTANCE) {
+        return COOL;
+    }
+    else if (distance_from_star <= SMALL_DISTANE && distance_from_start >= 50000000) {
+        return WARM;
+    }
+
+    return HOT;
+}
+>>>>>>> d2c3fc6 (added header files)
